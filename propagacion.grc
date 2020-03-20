@@ -3644,7 +3644,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>name</key>
-      <value>"histograma de potencia recibida en dB"</value>
+      <value>"histograma de potencia recibida (en dB en el eje horizontal)"</value>
     </param>
     <param>
       <key>bins</key>
@@ -3727,7 +3727,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>label1</key>
-      <value>Pr</value>
+      <value>Pr(dB)</value>
     </param>
     <param>
       <key>unit1</key>
