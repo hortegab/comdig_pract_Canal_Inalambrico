@@ -1294,7 +1294,7 @@
     </param>
     <param>
       <key>Ch_Phoffset</key>
-      <value>(numpy.pi)*2*random.random()</value>
+      <value>(numpy.pi)*2/8</value>
     </param>
     <param>
       <key>Ch_Toffset</key>
