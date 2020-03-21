@@ -2529,7 +2529,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>stream_id</key>
-      <value>R0a</value>
+      <value>R0</value>
     </param>
   </block>
   <block>

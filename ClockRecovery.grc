@@ -1368,8 +1368,8 @@
       <value>0</value>
     </param>
     <param>
-      <key>T_fluct</key>
-      <value>M*1024</value>
+      <key>N_fluct</key>
+      <value>Sps*10</value>
     </param>
     <param>
       <key>samp_rate</key>
@@ -2443,7 +2443,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>stream_id</key>
-      <value>R0a</value>
+      <value>R0</value>
     </param>
   </block>
   <block>
