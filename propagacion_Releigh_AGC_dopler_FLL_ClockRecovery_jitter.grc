@@ -623,7 +623,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>2.5</value>
+      <value>0.25</value>
     </param>
   </block>
   <block>
@@ -1219,11 +1219,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(816, 924)</value>
+      <value>(864, 924)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1313,7 +1313,7 @@
     </param>
     <param>
       <key>Ch_NodB</key>
-      <value>-60</value>
+      <value>-70.</value>
     </param>
     <param>
       <key>Ch_Loss_dB</key>
@@ -1341,15 +1341,15 @@
     </param>
     <param>
       <key>Fluctuacion</key>
-      <value>50.</value>
+      <value>40</value>
     </param>
     <param>
       <key>Foffset</key>
-      <value>100.</value>
+      <value>0.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(916, 728)</value>
+      <value>(916, 688)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1368,8 +1368,8 @@
       <value>0</value>
     </param>
     <param>
-      <key>T_fluct</key>
-      <value>M*1024</value>
+      <key>N_fluct</key>
+      <value>Sps*10</value>
     </param>
     <param>
       <key>samp_rate</key>
@@ -2443,7 +2443,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>stream_id</key>
-      <value>R0a</value>
+      <value>R0</value>
     </param>
   </block>
   <block>
