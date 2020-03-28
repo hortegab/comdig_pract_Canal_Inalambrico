@@ -611,7 +611,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1024, 1740)</value>
+      <value>(1024, 1700)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1007,6 +1007,49 @@
     </param>
   </block>
   <block>
+    <key>E3TRadio_mean_meter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(688, 1524)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>E3TRadio_mean_meter_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>reset</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
     <key>virtual_sink</key>
     <param>
       <key>comment</key>
@@ -1369,7 +1412,7 @@
     </param>
     <param>
       <key>N_fluct</key>
-      <value>Sps*10</value>
+      <value>Sps*6</value>
     </param>
     <param>
       <key>samp_rate</key>
@@ -1479,6 +1522,104 @@
     </param>
   </block>
   <block>
+    <key>b_cdf_ff</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(832, 1980)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>menu@4:0,0,1,1</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>b_cdf_ff_0</value>
+    </param>
+    <param>
+      <key>EjeX</key>
+      <value>'potencia'</value>
+    </param>
+    <param>
+      <key>Xmax</key>
+      <value>4.</value>
+    </param>
+    <param>
+      <key>Xmin</key>
+      <value>-4.</value>
+    </param>
+  </block>
+  <block>
+    <key>b_pdf_cdf_ff</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(824, 1884)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>menu@4:0,0,1,2</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>b_pdf_cdf_ff_0</value>
+    </param>
+    <param>
+      <key>EjeX</key>
+      <value>'Potencia (dB)'</value>
+    </param>
+    <param>
+      <key>Xmax</key>
+      <value>1.</value>
+    </param>
+    <param>
+      <key>Xmin</key>
+      <value>-6.</value>
+    </param>
+    <param>
+      <key>pdf_max</key>
+      <value>1.33</value>
+    </param>
+  </block>
+  <block>
     <key>b_pdf_ff</key>
     <param>
       <key>alias</key>
@@ -1494,11 +1635,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(824, 1820)</value>
+      <value>(824, 1780)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1518,15 +1659,15 @@
     </param>
     <param>
       <key>Xmax</key>
-      <value>1.</value>
+      <value>-1.</value>
     </param>
     <param>
       <key>Xmin</key>
-      <value>-3.</value>
+      <value>-8.</value>
     </param>
     <param>
       <key>pdf_max</key>
-      <value>0.025</value>
+      <value>0.7</value>
     </param>
   </block>
   <block>
@@ -1800,7 +1941,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(704, 1644)</value>
+      <value>(704, 1604)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1809,6 +1950,57 @@
     <param>
       <key>id</key>
       <value>blocks_nlog10_ff_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>k</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>n</key>
+      <value>10</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_nlog10_ff</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(896, 1516)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_nlog10_ff_0_0</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2733,7 +2925,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>label4</key>
-      <value>histograma Potencia recibida</value>
+      <value>histograma, PDF, CDF</value>
     </param>
     <param>
       <key>label5</key>
@@ -3321,11 +3513,11 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(840, 1636)</value>
+      <value>(896, 1596)</value>
     </param>
     <param>
       <key>gui_hint</key>
-      <value>menu@3:0,0,1,1</value>
+      <value>menu@3:0,1,1,1</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3353,7 +3545,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>label1</key>
-      <value>Pr(dB)</value>
+      <value>Pr(dB) Instantanea</value>
     </param>
     <param>
       <key>unit1</key>
@@ -3505,11 +3697,242 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>max</key>
-      <value>200</value>
+      <value>0</value>
     </param>
     <param>
       <key>min</key>
-      <value>-200</value>
+      <value>-9</value>
+    </param>
+    <param>
+      <key>name</key>
+      <value>""</value>
+    </param>
+    <param>
+      <key>nconnections</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>update_time</key>
+      <value>0.10</value>
+    </param>
+  </block>
+  <block>
+    <key>qtgui_number_sink</key>
+    <param>
+      <key>autoscale</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1000, 1508)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>menu@3:0,0,1,1</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>graph_type</key>
+      <value>qtgui.NUM_GRAPH_HORIZ</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>qtgui_number_sink_0_0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>color1</key>
+      <value>("blue", "red")</value>
+    </param>
+    <param>
+      <key>factor1</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label1</key>
+      <value>Pr(dB) promediada</value>
+    </param>
+    <param>
+      <key>unit1</key>
+      <value>dB</value>
+    </param>
+    <param>
+      <key>color10</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor10</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label10</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit10</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color2</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor2</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label2</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit2</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color3</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor3</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label3</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit3</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color4</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor4</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label4</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit4</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color5</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor5</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label5</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit5</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color6</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor6</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label6</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit6</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color7</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor7</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label7</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit7</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color8</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor8</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label8</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit8</key>
+      <value></value>
+    </param>
+    <param>
+      <key>color9</key>
+      <value>("black", "black")</value>
+    </param>
+    <param>
+      <key>factor9</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>label9</key>
+      <value></value>
+    </param>
+    <param>
+      <key>unit9</key>
+      <value></value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>-9</value>
     </param>
     <param>
       <key>name</key>
@@ -3560,11 +3983,11 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(832, 1732)</value>
+      <value>(832, 1684)</value>
     </param>
     <param>
       <key>gui_hint</key>
-      <value>menu@3:1,0,1,1</value>
+      <value>menu@3:1,0,1,2</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3824,7 +4247,7 @@ print("codigo inverso = ", mapinverse)
     </param>
     <param>
       <key>name</key>
-      <value>""</value>
+      <value>"Power signal"</value>
     </param>
     <param>
       <key>nconnections</key>
@@ -4412,6 +4835,12 @@ def rrcos(Sps,ntaps,beta):
     </param>
   </block>
   <connection>
+    <source_block_id>E3TRadio_mean_meter_0</source_block_id>
+    <sink_block_id>blocks_nlog10_ff_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>analog_agc2_xx_0</source_block_id>
     <sink_block_id>rational_resampler_xxx_0_0</sink_block_id>
     <source_key>0</source_key>
@@ -4473,7 +4902,25 @@ def rrcos(Sps,ntaps,beta):
   </connection>
   <connection>
     <source_block_id>blocks_multiply_xx_1</source_block_id>
+    <sink_block_id>E3TRadio_mean_meter_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_xx_1</source_block_id>
     <sink_block_id>blocks_nlog10_ff_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_nlog10_ff_0</source_block_id>
+    <sink_block_id>b_cdf_ff_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_nlog10_ff_0</source_block_id>
+    <sink_block_id>b_pdf_cdf_ff_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -4492,6 +4939,12 @@ def rrcos(Sps,ntaps,beta):
   <connection>
     <source_block_id>blocks_nlog10_ff_0</source_block_id>
     <sink_block_id>qtgui_time_sink_x_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_nlog10_ff_0_0</source_block_id>
+    <sink_block_id>qtgui_number_sink_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
