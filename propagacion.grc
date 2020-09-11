@@ -147,7 +147,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: NbpS*samp_rate_audio
+    value: NbpS*samp_rate_audio/2
   states:
     bus_sink: false
     bus_source: false
